@@ -77,11 +77,11 @@ h4 {
 }
 
 .content-box {
-    width: 70rem;
+    /* width: 60rem; */
     /* border: 1px solid crimson; */
     margin: 4rem auto;
     line-height: 1.5rem;
-    padding: 2rem 0rem;
+    padding: 2rem 1rem;
 }
 
 .mail a {
@@ -131,4 +131,35 @@ h4 {
 .contact li:hover {
     transform: scale(1.1, 1.2);
     transition: ease-in 0.2s;
+}
+
+@media only screen and (max-width:700px) {
+    .logo {
+        border: 3px solid black;
+        padding: 0.5rem;
+    }
+
+    .intro {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .logo {
+        border: 3px solid black;
+        padding: 0.5rem;
+    }
+
+    .intro {
+        font-size: 30px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 1rem;
+        /* border: 1px solid cadetblue; */
+    }
 }
