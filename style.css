@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 1rem 3rem;
-    /* border: 1px solid cadetblue; */
+    border: 1px solid cadetblue;
 }
 
 .logo {
@@ -51,7 +51,7 @@ nav li:hover {
 
 .intro {
     text-align: center;
-    margin-top: 0rem;
+    margin-top: 1.5rem;
     font-size: 50px;
     word-spacing: 1rem;
     letter-spacing: 0.2rem;
