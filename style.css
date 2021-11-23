@@ -54,7 +54,8 @@ nav li:hover {
 
 .intro {
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
     font-size: 50px;
     word-spacing: 1rem;
     letter-spacing: 0.2rem;
@@ -107,10 +108,11 @@ h4 {
 }
 
 .mail a:hover {
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border-color: white;
-    animation: link-hover 500ms ease-in-out;
+    animation: link-hover 200ms ease-in-out;
+    transition: 0.3s;
 }
 
 .contact {
@@ -155,6 +157,7 @@ h4 {
 
     .intro {
         font-size: 30px;
+        margin-bottom: 1.5rem;
     }
 
     header {
