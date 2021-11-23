@@ -213,7 +213,7 @@ nav li:hover {
         width: 25rem;
         margin: 1rem;
         height: 15rem;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
 }
 
@@ -222,7 +222,7 @@ nav li:hover {
         width: 20rem;
         margin: 1rem;
         height: 10rem;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
 }
 
