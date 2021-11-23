@@ -12,6 +12,7 @@ body {
     font-family: 'Roboto Condensed',
         sans-serif;
     /* border: 3px solid black; */
+    animation: page-load 750ms ease-in-out;
 }
 
 header {
@@ -20,7 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 1rem 3rem;
-    border: 1px solid cadetblue;
+    /* border: 1px solid cadetblue; */
 }
 
 .logo {
@@ -42,11 +43,13 @@ nav a {
     color: black;
     padding: 1rem;
     list-style: none;
+    transition: ease-in-out 100ms;
 }
 
 nav li:hover {
     transform: scale(1.2);
     font-weight: 700;
+    transition: ease-in-out 100ms;
 }
 
 .intro {
@@ -107,7 +110,7 @@ h4 {
     background-color: rgb(75, 75, 75);
     color: rgb(255, 255, 255);
     border-color: white;
-    transition: ease-in 0.2s;
+    animation: link-hover 500ms ease-in-out;
 }
 
 .contact {
@@ -162,4 +165,27 @@ h4 {
         margin: 1rem 1rem;
         /* border: 1px solid cadetblue; */
     }
+}
+
+@keyframes page-load {
+    0% {
+        transform: scale(0%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
+
+@keyframes link-hover {
+    0% {
+        background-color: white;
+        transform: scaleX(0%) left;
+    }
+
+    100% {
+        background-color: rgb(99, 99, 99);
+        transform: scaleX(100%)right;
+    }
+
 }
